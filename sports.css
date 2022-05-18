@@ -46,7 +46,6 @@ body{
     float: none;
     text-align: center;
     padding: 14px 16px;
-
 }
 a:active,a:link,a:visited{
     text-decoration: none;
@@ -60,9 +59,15 @@ a{
     border-radius: 50%;
     height: 25px;
     width: 25px;
-    border: 10px solid blueviolet;
-    padding: 5px;
-    
+    padding: 7px; 
+    position: relative;
+    background-image:linear-gradient(300deg,blueviolet, orange);
+}
+.circle1{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: white;
 }
 /* text and time display */
 .timer{
